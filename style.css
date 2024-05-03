@@ -20,7 +20,7 @@ header{
 
 .logo {
     text-decoration: none;
-    color: blue;
+    color: rgb(12 27 35);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -47,7 +47,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(Images/XR-IMAGE.jpeg) no-repeat;
+    background: url(Img/XR.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
@@ -55,9 +55,11 @@ section{
 }
 
 .main h2{
-    color: aliceblue;
+    
     font-size: 1.4em;
     font-size: 500;
+    text-transform: uppercase;
+    color: #b9bbbe;
 }
 
 .main h2 span{
@@ -66,6 +68,7 @@ section{
     color: aquamarine;
     font-size: 3em;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .main h3{
@@ -124,7 +127,7 @@ section{
 
 .card {
     background-color: #fff;
-    width: 21.25em;
+    width: 20em;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
     border-radius:15px;
     margin: 15px;
@@ -162,11 +165,11 @@ section{
 }
 .project-card{
     background-color: #94cdb0;
-    width: 15em;
+    width:23.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
     border:5px solid #fff;
     border-radius: 10px;
-    margin: 15px;
+    margin:15px;
     padding: 10px;
     min-height: 14em;
     transition: 0.7s ease;
@@ -190,4 +193,19 @@ section{
     text-decoration: none;
     text-align: center;
     color: #304272;
+}
+@media (max-width:1023px)
+{
+  header{
+    padding: 12px 20px;
+  }
+
+  .navigation a{
+    padding-left: 10px;
+  }
+
+  .logo{
+    margin: 15px;;
+  }
+
 }
